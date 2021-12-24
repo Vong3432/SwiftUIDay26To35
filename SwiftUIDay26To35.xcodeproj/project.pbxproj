@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B79318C2774F1ED00F070FA /* WordScrambleAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79318B2774F1ED00F070FA /* WordScrambleAppView.swift */; };
+		3B79318E2774F2DF00F070FA /* WordScrambleLearningAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79318D2774F2DF00F070FA /* WordScrambleLearningAppView.swift */; };
+		3B7931902774F3D500F070FA /* some-file.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3B79318F2774F3D500F070FA /* some-file.txt */; };
+		3B7931922774FA8C00F070FA /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3B7931912774FA8C00F070FA /* start.txt */; };
 		3B92384F27731D11000CFC9B /* SwiftUIDay26To35App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B92384E27731D11000CFC9B /* SwiftUIDay26To35App.swift */; };
 		3B92385127731D11000CFC9B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B92385027731D11000CFC9B /* ContentView.swift */; };
 		3B92385327731D12000CFC9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B92385227731D12000CFC9B /* Assets.xcassets */; };
 		3B92385627731D12000CFC9B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B92385527731D12000CFC9B /* Preview Assets.xcassets */; };
 		3B92385E27731E58000CFC9B /* BetterRestAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B92385D27731E58000CFC9B /* BetterRestAppView.swift */; };
 		3B92386027732D07000CFC9B /* SleepCalulator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3B92385F27732D07000CFC9B /* SleepCalulator.mlmodel */; };
+		3B9899BA277564700062C81D /* WordScrambleAppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9899B9277564700062C81D /* WordScrambleAppViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B79318B2774F1ED00F070FA /* WordScrambleAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScrambleAppView.swift; sourceTree = "<group>"; };
+		3B79318D2774F2DF00F070FA /* WordScrambleLearningAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScrambleLearningAppView.swift; sourceTree = "<group>"; };
+		3B79318F2774F3D500F070FA /* some-file.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "some-file.txt"; sourceTree = "<group>"; };
+		3B7931912774FA8C00F070FA /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 		3B92384B27731D11000CFC9B /* SwiftUIDay26To35.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDay26To35.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B92384E27731D11000CFC9B /* SwiftUIDay26To35App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDay26To35App.swift; sourceTree = "<group>"; };
 		3B92385027731D11000CFC9B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,6 +32,7 @@
 		3B92385527731D12000CFC9B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3B92385D27731E58000CFC9B /* BetterRestAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRestAppView.swift; sourceTree = "<group>"; };
 		3B92385F27732D07000CFC9B /* SleepCalulator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalulator.mlmodel; sourceTree = "<group>"; };
+		3B9899B9277564700062C81D /* WordScrambleAppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScrambleAppViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +46,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B79318A2774F19A00F070FA /* Project5WordScramble */ = {
+			isa = PBXGroup;
+			children = (
+				3B79318F2774F3D500F070FA /* some-file.txt */,
+				3B7931912774FA8C00F070FA /* start.txt */,
+				3B79318B2774F1ED00F070FA /* WordScrambleAppView.swift */,
+				3B79318D2774F2DF00F070FA /* WordScrambleLearningAppView.swift */,
+				3B9899B9277564700062C81D /* WordScrambleAppViewModel.swift */,
+			);
+			path = Project5WordScramble;
+			sourceTree = "<group>";
+		};
 		3B92384227731D11000CFC9B = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +77,7 @@
 		3B92384D27731D11000CFC9B /* SwiftUIDay26To35 */ = {
 			isa = PBXGroup;
 			children = (
+				3B79318A2774F19A00F070FA /* Project5WordScramble */,
 				3B92385C27731D28000CFC9B /* Project4BetterRest */,
 				3B92384E27731D11000CFC9B /* SwiftUIDay26To35App.swift */,
 				3B92385027731D11000CFC9B /* ContentView.swift */,
@@ -140,6 +163,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B92385627731D12000CFC9B /* Preview Assets.xcassets in Resources */,
+				3B7931922774FA8C00F070FA /* start.txt in Resources */,
+				3B7931902774F3D500F070FA /* some-file.txt in Resources */,
 				3B92385327731D12000CFC9B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,9 +177,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B92385E27731E58000CFC9B /* BetterRestAppView.swift in Sources */,
+				3B9899BA277564700062C81D /* WordScrambleAppViewModel.swift in Sources */,
 				3B92386027732D07000CFC9B /* SleepCalulator.mlmodel in Sources */,
+				3B79318C2774F1ED00F070FA /* WordScrambleAppView.swift in Sources */,
 				3B92385127731D11000CFC9B /* ContentView.swift in Sources */,
 				3B92384F27731D11000CFC9B /* SwiftUIDay26To35App.swift in Sources */,
+				3B79318E2774F2DF00F070FA /* WordScrambleLearningAppView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
