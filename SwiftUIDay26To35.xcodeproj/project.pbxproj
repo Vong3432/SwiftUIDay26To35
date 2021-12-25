@@ -17,6 +17,10 @@
 		3B92385627731D12000CFC9B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B92385527731D12000CFC9B /* Preview Assets.xcassets */; };
 		3B92385E27731E58000CFC9B /* BetterRestAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B92385D27731E58000CFC9B /* BetterRestAppView.swift */; };
 		3B92386027732D07000CFC9B /* SleepCalulator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3B92385F27732D07000CFC9B /* SleepCalulator.mlmodel */; };
+		3B92904327757A9800331E12 /* Project6AnimationLearningAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B92904227757A9800331E12 /* Project6AnimationLearningAppView.swift */; };
+		3B9290452775AE6800331E12 /* Project6ChallengeAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9290442775AE6800331E12 /* Project6ChallengeAppView.swift */; };
+		3B9290472775C3D300331E12 /* Project6ChallengeAppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9290462775C3D300331E12 /* Project6ChallengeAppViewModel.swift */; };
+		3B9290492775F76200331E12 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9290482775F76200331E12 /* Question.swift */; };
 		3B9899BA277564700062C81D /* WordScrambleAppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9899B9277564700062C81D /* WordScrambleAppViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +36,10 @@
 		3B92385527731D12000CFC9B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3B92385D27731E58000CFC9B /* BetterRestAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRestAppView.swift; sourceTree = "<group>"; };
 		3B92385F27732D07000CFC9B /* SleepCalulator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalulator.mlmodel; sourceTree = "<group>"; };
+		3B92904227757A9800331E12 /* Project6AnimationLearningAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project6AnimationLearningAppView.swift; sourceTree = "<group>"; };
+		3B9290442775AE6800331E12 /* Project6ChallengeAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project6ChallengeAppView.swift; sourceTree = "<group>"; };
+		3B9290462775C3D300331E12 /* Project6ChallengeAppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project6ChallengeAppViewModel.swift; sourceTree = "<group>"; };
+		3B9290482775F76200331E12 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		3B9899B9277564700062C81D /* WordScrambleAppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScrambleAppViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,6 +85,7 @@
 		3B92384D27731D11000CFC9B /* SwiftUIDay26To35 */ = {
 			isa = PBXGroup;
 			children = (
+				3B92904127757A8500331E12 /* Project6 */,
 				3B79318A2774F19A00F070FA /* Project5WordScramble */,
 				3B92385C27731D28000CFC9B /* Project4BetterRest */,
 				3B92384E27731D11000CFC9B /* SwiftUIDay26To35App.swift */,
@@ -102,6 +111,17 @@
 				3B92385D27731E58000CFC9B /* BetterRestAppView.swift */,
 			);
 			path = Project4BetterRest;
+			sourceTree = "<group>";
+		};
+		3B92904127757A8500331E12 /* Project6 */ = {
+			isa = PBXGroup;
+			children = (
+				3B92904227757A9800331E12 /* Project6AnimationLearningAppView.swift */,
+				3B9290442775AE6800331E12 /* Project6ChallengeAppView.swift */,
+				3B9290482775F76200331E12 /* Question.swift */,
+				3B9290462775C3D300331E12 /* Project6ChallengeAppViewModel.swift */,
+			);
+			path = Project6;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,10 +198,14 @@
 			files = (
 				3B92385E27731E58000CFC9B /* BetterRestAppView.swift in Sources */,
 				3B9899BA277564700062C81D /* WordScrambleAppViewModel.swift in Sources */,
+				3B92904327757A9800331E12 /* Project6AnimationLearningAppView.swift in Sources */,
 				3B92386027732D07000CFC9B /* SleepCalulator.mlmodel in Sources */,
+				3B9290452775AE6800331E12 /* Project6ChallengeAppView.swift in Sources */,
 				3B79318C2774F1ED00F070FA /* WordScrambleAppView.swift in Sources */,
 				3B92385127731D11000CFC9B /* ContentView.swift in Sources */,
+				3B9290472775C3D300331E12 /* Project6ChallengeAppViewModel.swift in Sources */,
 				3B92384F27731D11000CFC9B /* SwiftUIDay26To35App.swift in Sources */,
+				3B9290492775F76200331E12 /* Question.swift in Sources */,
 				3B79318E2774F2DF00F070FA /* WordScrambleLearningAppView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

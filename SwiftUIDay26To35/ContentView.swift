@@ -12,7 +12,9 @@ struct ContentView: View {
 //        Text("Hello, world!")
 //            .padding()
 //        BetterRestAppView()
-        WordScrambleAppView()
+//        WordScrambleAppView()
+//        Project6AnimationLearningAppView()
+        Project6ChallengeAppView()
     }
 }
 
